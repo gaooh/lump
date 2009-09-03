@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>src/main/webapp/</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>false</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/</webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/Users/ebisen/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar</webClassPathEntry>
+        <webClassPathEntry>/Users/ebisen/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar</webClassPathEntry>
+        <webClassPathEntry>/Users/ebisen/.m2/repository/org/apache/wicket/wicket/1.3.2/wicket-1.3.2.jar</webClassPathEntry>
+        <webClassPathEntry>/Users/ebisen/.m2/repository/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2.jar</webClassPathEntry>
+        <webClassPathEntry>/Users/ebisen/.m2/repository/org/slf4j/slf4j-log4j12/1.4.2/slf4j-log4j12-1.4.2.jar</webClassPathEntry>
+        <webClassPathEntry>org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>

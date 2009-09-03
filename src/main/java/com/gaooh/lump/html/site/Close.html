@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<body>
+
+<wicket:extend>
+
+<script type="text/javascript">
+	function closeWindow(){
+    	window.opener = window;
+    	var win = window.open(location.href,"_self");
+    	win.close();
+	}
+	window.onload = function(){
+		closeWindow();
+	}
+</script>
+
+自動的にWindowはcloseします。<br/>
+閉じない場合は<a href="#" onclick="jabascript:closeWindow()">click</a>してください。<br/>
+
+</wicket:extend>
+
+</body>
+</html>

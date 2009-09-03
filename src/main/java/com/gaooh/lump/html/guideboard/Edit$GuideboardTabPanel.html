@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<wicket:panel>
+
+<h3 class="title">
+	<span wicket:id="title">田中 洋一郎</span>
+	<a wicket:id="rssUrl"><img src="/images/rss.gif"/></a>
+</h3>
+
+<span wicket:id="description">第1開発部</span>
+<hr class="solid" />
+
+<span class="board_info">
+	作成者:<img wicket:id="image" height="16px" /> / 
+	登録数:<span wicket:id="siteCount">10</span> / 
+	作成日:<span wicket:id="createdAt">2001/01/01 16:20:48</span> - 
+	最終更新日:<span wicket:id="updatedAt">2001/01/01 16:20:48</span>
+</span>
+<div class="clear"/>
+
+<span class="board_info">
+	<span wicket:id="stars" />
+	<a href="#" wicket:id="addStar">add</a>
+</span>
+<div class="clear"/>
+
+<br/>
+<div wicket:id="setupSites" ></div>
+<br/>
+<ul class="tab">
+    <li><a wicket:id="lumpLink">登録したサイト</a></li>
+    <li><a wicket:id="officeLink">オフィス</a></li>
+    <li><a wicket:id="hatenaLink">はてブ</a></li>
+</ul>
+<div wicket:id="groupSites" ></div>
+
+
+</wicket:panel>
+</html>

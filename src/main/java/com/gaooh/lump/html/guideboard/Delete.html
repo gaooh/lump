@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<body>
+
+<wicket:extend>
+
+<form wicket:id="deleteForm">
+	<p>以下のガイドボードをコメントを含めて削除します。削除されたガイドボードは復活できません。それでも削除しますか？</p>
+    <input type="hidden" wicket:id="guideboardId" />
+    <input type="submit" wicket:id="submitBtn" value="削除する" />
+</form>
+	
+<span wicket:id="id" style="display:none"></span>
+<h3 class="title" wicket:id="title">田中 洋一郎</h3>
+<span wicket:id="description">第1開発部</span>
+
+<div wicket:id="setupSites" ></div>
+
+<div wicket:id="groupCommentPanel" ></div>
+
+</wicket:extend>
+
+</body>
+</html>

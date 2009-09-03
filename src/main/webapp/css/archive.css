@@ -1,0 +1,31 @@
+body {
+	background-color: #ffffff;
+	font-size: 13px;
+	color: #564b47;
+	padding: 20px;
+	margin: 0px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#header {
+	color: #000000;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+#header .headera a {
+	color: #F59422;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin: auto;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+iframe {
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+

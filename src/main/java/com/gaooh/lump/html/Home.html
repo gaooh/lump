@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<body>
+
+<wicket:extend>
+
+<h2>人気ガイドボードトップ５</h2>
+
+<div class="box" wicket:id="topGuideboardPanel"></div>
+
+<h2>ガイドボード一覧</h2>
+
+<div wicket:id="guideboardPanel"></div>
+<div class="navigator" wicket:id="navigator" ></div>
+
+<h2>最近登録されたサイト</h2>
+
+<ul class="sites" wicket:id="sites">
+	<li>
+		<img wicket:id="image" height="16px" vspace="2px"/>
+		<a wicket:id="title">たいとる</a>
+		<a wicket:id="userName">id:gaooh</a>
+		<a wicket:id="count">-1</a>
+	</li>
+
+</ul>
+<p style="text-align: right;"><a href="/site/List">さらに見る</a></p>
+
+</wicket:extend>
+
+</body>
+</html>

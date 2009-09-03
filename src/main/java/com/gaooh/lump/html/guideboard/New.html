@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<body>
+
+<wicket:extend>
+
+<h2>ガイドボード新規作成</h2>
+
+<div wicket:id="feedback">えらーとか</div>
+
+<form method="post"  wicket:id="createForm">
+    <p>タイトル: <br/>
+    <input type="text" name="titleTextField" value="" size="80" wicket:id="titleTextField" /></p>
+    <p>概要：<br/>
+    <textarea name="descriptionTextField"  cols="80" rows="4" wicket:id="descriptionTextField">あああ</textarea></p>
+      
+	<input type="submit" value="作成" name="submit" wicket:id="submitBtn" />
+</form>
+
+</wicket:extend>
+
+</body>
+</html>

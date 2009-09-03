@@ -1,0 +1,23 @@
+#Sun Aug 24 17:47:59 JST 2008
+eclipse.preferences.version=1
+encoding//src/main/java/com/gaooh/lump/html/GuideboardPanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/Home.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/comon/UserSitePanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/CommentPanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/Edit.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/HatenaSitePanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/New.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/OfficeSitePanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/Show.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/guideboard/SitePanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/portal/Show$CommentTabPanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/portal/Show$GuideboardTabPanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/portal/Show.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/site/Close.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/site/List.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/site/New.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/site/Show.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/site/UserSitePanel.html=UTF-8
+encoding//src/main/java/com/gaooh/lump/html/user/Show.html=UTF-8
+encoding//src/main/java/com/gaooh/wicket/markup/html/navigation/paging/PagingNavigator.html=UTF-8
+encoding/<project>=UTF8

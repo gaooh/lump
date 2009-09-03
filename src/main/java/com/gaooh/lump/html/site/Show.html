@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<body>
+
+<wicket:extend>
+
+<h3 class="title" wicket:id="title">たいとる</h3>
+<p wicket:id="description">せつめい</p>
+
+<div class="thumbnail"><img wicket:id="thumbnail" /></div>
+
+<dl class="siteNote">
+<dt>アーカイブ：</dt>
+<dd><a wicket:id="archive">http://www.softbankmobile.co.jp/ja/news/press/2008/20080604_01/</a></dd>
+</dl>
+
+<dl class="siteNote">
+<dt>URL：</dt>
+<dd><a wicket:id="url">http://www.softbankmobile.co.jp/ja/news/press/2008/20080604_01/</a></dd>
+</dl>
+
+<div style="clear: both"></div>
+<hr class="dashed" />
+
+<div wicket:id="userSitePanel"></div>
+	
+<div id="sidebar">
+<b class="rtop9"><b class="r19"/><b class="r29"/><b class="r39"/><b class="r49"/></b>
+	<div class="inside">
+		<form wicket:id="form">
+     		<input type="text" wicket:id="comment"  size="40" />
+     		<input type="submit" wicket:id="submit" value="投稿" />
+		</form>
+	</div>
+<b class="rbottom9"><b class="r49"/><b class="r39"/><b class="r29"/><b class="r19"/></b>
+</div>
+
+<div wicket:id="hatenaPanel"></div>
+
+</wicket:extend>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org/" xml:lang="ja" lang="ja">
+<wicket:panel>
+
+<div wicket:id="feedback">ここにエラー内容を表示</div>
+
+<form method="post" name="createForm" wicket:id="createForm">
+      URL: <br/>
+      <input type="text" name="urlTextField" value="" size="40" width="40" wicket:id="urlTextField" /><br/>
+      タイトル: <br/>
+      <input type="text" name="titleTextField" value="" size="40" width="40" wicket:id="titleTextField" /><br/>
+      説明：<br/>
+      <textarea name="descriptionTextField"  cols="50" rows="3" wicket:id="descriptionTextField">あああ</textarea><br/>
+    
+      <hr class="dashed" />
+      
+      コメント：<br/>
+      <textarea name="commentTextField"  cols="50" rows="3" wicket:id="commentTextField">あああ</textarea><br/>
+      <br/>
+      <input type="submit" value="登録" name="submit" wicket:id="submitBtn" />
+</form>
+
+</wicket:panel>
+</html>

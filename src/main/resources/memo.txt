@@ -1,0 +1,9 @@
+mysqladmin -u root -p create board_development
+$ mysql -u  root  -p
+GRANT ALL ON board_development.* TO board@localhost IDENTIFIED BY 'board';
+
+javascript:d=document;w=window;t=d.selection?d.selection.createRange().text:(d.getSelection?d.getSelection():(w.getSelection?w.getSelection():''));void(window.open('http://localhost:8080/site/New?title='+encodeURI(encodeURI(d.title))+'&url='+encodeURI(d.location.href)+'&description=' + encodeURI(encodeURI(t)),'AddClip','scrollbars=yes,width=480,height=450,resizable=1,scrollbars=1'));undefined;
+
+javascript:(function(){var d=document,l=d.location,t=d.selection?d.selection.createRange().text:(d.getSelection?d.getSelection():(w.getSelection?w.getSelection():'')),f='http://localhost:8080/site/New?title=',w=window,u=f+encodeURI(encodeURI(d.title))+'&url='+encodeURI(d.location.href)+'&description='+encodeURI(encodeURI(t)),r=w.SymRealWinOpen;o=r?r:w.open ;a=function(){o(u,'b', 'width=480,height=450,resizable=1,scrollbars=1')};setTimeout(a,0);void(0);})();
+
+javascript:(function(){var d=document,l=d.location,f='http://b.hatena.ne.jp/add?mode=confirm&is_bm=1&title=',w=window,u=f+escape(d.title)+'&url='+escape(l),r=w.SymRealWinOpen;o=r?r:w.open ;a=function(){o(u,'b', 'width=550,height=600,resizable=1,scrollbars=1')};if(/Gecko\//.test(navigator.userAgent))setTimeout(a,0);else a();void(0);})();
